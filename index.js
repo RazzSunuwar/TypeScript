@@ -1,4 +1,6 @@
-var myString = "Hello World";
-var myNum = 5;
-console.log(myString); //Hello World
-console.log(myNum); //5 
+function myFunction(message) {
+    console.log(message);
+}
+
+var message = "Hello World! I am MicroShoft";
+myFunction(message);
